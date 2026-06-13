@@ -1,6 +1,6 @@
 // 드론 시티 월드투어 — 서비스워커
 // 앱 셸(HTML/CSS/JS/아이콘)은 캐시 우선, 지도 타일은 항상 네트워크
-const CACHE = 'drone-city-v3';
+const CACHE = 'drone-city-v4';
 const SHELL = [
   './',
   './index.html',
