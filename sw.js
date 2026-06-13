@@ -1,14 +1,12 @@
 // 드론 시티 월드투어 — 서비스워커
 // 앱 셸(HTML/CSS/JS/아이콘)은 캐시 우선, 지도 타일은 항상 네트워크
-const CACHE = 'drone-city-v2';
+const CACHE = 'drone-city-v3';
 const SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
   './icon-192.png',
   './icon-512.png',
-  'https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css',
-  'https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js',
 ];
 
 self.addEventListener('install', e => {
